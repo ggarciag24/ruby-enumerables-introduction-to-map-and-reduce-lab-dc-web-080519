@@ -19,8 +19,8 @@ def reduce_to_total(sourceArray, startingPoint = 0)
     sourceArray.reduce(startingPoint) { |total, num| total + num}
 end
 #source_array = [1, 2, true, "razmatazz"]
-def reduce_to_all_true(sourceArray) 
-    sourceArray.reduce([]) do |memo, n|
+def reduce_to_all_true(source_array) 
+    source_array.reduce([]) do |memo, n|
       memo << n
       binding.pry
     if memo === true 
