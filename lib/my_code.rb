@@ -25,7 +25,7 @@ def reduce_to_all_true(source_array)
       binding.pry
     #get the array iterate through eash element
     #check if its a truthy or falsy value 
-    # print out the value true or false 
+    #if a truthy value is present return true if not then return false 
     
     if memo === true 
       return true
