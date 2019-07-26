@@ -23,7 +23,7 @@ def reduce_to_all_true(sourceArray)
     sourceArray.reduce([]) do |memo, n|
       memo << n
     end  
-    if n === true 
+    if sourceArray[n] === true 
       return true
     else
       return false
