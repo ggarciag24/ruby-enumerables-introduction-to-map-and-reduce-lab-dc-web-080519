@@ -23,6 +23,10 @@ def reduce_to_all_true(source_array)
     source_array.reduce([]) do |memo, n|
       memo << n
       binding.pry
+    #get the array iterate through eash element
+    #check if its a truthy or falsy value 
+    # print out the value true or false 
+    
     if memo === true 
       return true
     else
