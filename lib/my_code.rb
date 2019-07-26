@@ -22,12 +22,12 @@ end
 def reduce_to_all_true(sourceArray) 
     sourceArray.reduce([]) do |memo, n|
       memo << n
-    end  
-    if sourceArray[n] === true 
+    if  === true 
       return true
     else
       return false
     end
+  end
 end
 
 def reduce_to_any_true(sourceArray)
