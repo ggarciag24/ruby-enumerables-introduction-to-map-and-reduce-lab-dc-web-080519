@@ -36,5 +36,6 @@ def reduce_to_any_true(source_array)
       if !!n == true
         return true
       end
+    end  
     return false
 end
