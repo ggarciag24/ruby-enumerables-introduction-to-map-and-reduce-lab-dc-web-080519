@@ -20,7 +20,7 @@ def reduce_to_total(sourceArray, startingPoint = 0)
 end
 #source_array = [1, 2, true, "razmatazz"]
 def reduce_to_all_true(source_array) 
-    source_array.reduce([]) do |memo, n|
+    source_array.each do |n|
       memo << n
       binding.pry
     #get the array iterate through eash element
