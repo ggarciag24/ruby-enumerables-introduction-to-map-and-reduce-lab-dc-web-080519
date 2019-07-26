@@ -27,7 +27,7 @@ def reduce_to_all_true(source_array)
     #check if its a truthy or falsy value 
     #if a truthy value is present return true if not then return false 
     
-    if n == true 
+    if  
   end
 end
 
