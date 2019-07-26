@@ -24,7 +24,6 @@ def reduce_to_all_true(source_array)
     #get the array iterate through eash element
     #check if its a truthy or falsy value 
     #if a truthy value is present return true if not then return false 
-    
     if !n 
       return false
     end
@@ -33,5 +32,5 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(sourceArray)
-    sourceArray.reduce(initial, :|)
+    sourceArray.reduce(initial, )
 end
