@@ -21,17 +21,13 @@ end
 #source_array = [1, 2, true, "razmatazz"]
 def reduce_to_all_true(source_array) 
     source_array.each do |n|
-      memo << n
+
       binding.pry
     #get the array iterate through eash element
     #check if its a truthy or falsy value 
     #if a truthy value is present return true if not then return false 
     
-    if memo === true 
-      return true
-    else
-      return false
-    end
+    if n ===
   end
 end
 
