@@ -1,4 +1,4 @@
-
+require('pry')
 def map_to_negativize(sourceArray)
    sourceArray.map() {|i| i * -1}
 end
@@ -18,10 +18,11 @@ end
 def reduce_to_total(sourceArray, startingPoint = 0)
     sourceArray.reduce(startingPoint) { |total, num| total + num}
 end
-
+#source_array = [1, 2, true, "razmatazz"]
 def reduce_to_all_true(sourceArray) 
     sourceArray.reduce([]) do |memo, n|
       memo << n
+      binding.pry
     if memo === true 
       return true
     else
