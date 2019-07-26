@@ -20,7 +20,14 @@ def reduce_to_total(sourceArray, startingPoint = 0)
 end
 
 def reduce_to_all_true(sourceArray) 
-    sourceArray.reduce(true, :&)
+    sourceArray.reduce([]) do |memo, n|
+      memo << n
+    end  
+    if memo === true 
+      return true
+    else
+      return false
+    end
 end
 
 def reduce_to_any_true(sourceArray)
